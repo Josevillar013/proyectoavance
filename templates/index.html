@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot Flask</title>
+</head>
+<body>
+    <h2>Chatbot</h2>
+    <form method="POST">
+        <label>Tu mensaje:</label><br>
+        <input type="text" name="mensaje" style="width: 300px;">
+        <input type="submit" value="Enviar">
+    </form>
+
+    {% if mensaje %}
+        <p><strong>Tú:</strong> {{ mensaje }}</p>
+        <p><strong>Chatbot:</strong> {{ respuesta }}</p>
+    {% endif %}
+</body>
+</html>
