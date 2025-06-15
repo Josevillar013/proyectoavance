@@ -7,11 +7,11 @@ while True:
 
     if "hola" in entrada:
         print("Bot: ¡Hola! ¿Cómo estás?")
-    elif "cómo estás" in entrada:
+    elif "como estas" in entrada:
         print("Bot: Muy bien, gracias por preguntar.")
-    elif "qué haces" in entrada:
+    elif "que haces" in entrada:
         print("Bot: Estoy aprendiendo contigo :)")
-    elif "adiós" in entrada or "salir" in entrada:
+    elif "adios" in entrada or "salir" in entrada:
         print("Bot: ¡Hasta luego!")
         break  # Termina el bucle y finaliza la conversación
     else:
