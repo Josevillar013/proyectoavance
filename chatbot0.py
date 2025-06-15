@@ -2,7 +2,7 @@ def responder(mensaje):
     mensaje = mensaje.lower()
     if "hola" in mensaje:
         return "¡Hola! ¿En qué puedo ayudarte?"
-    elif "adiós" in mensaje:
+    elif "adios" in mensaje:
         return "¡Hasta luego! Que tengas un buen día."
     else:
         return "Lo siento, no entendí eso."
